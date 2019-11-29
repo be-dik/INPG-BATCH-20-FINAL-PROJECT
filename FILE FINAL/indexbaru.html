@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>Tugas Akhir INPG 2019</title>
+    <meta charset="utf-8"/>
+    <link href="index.css" rel="stylesheet" type="text/css" >
+    <link rel="shortcut icon" type="image/png" href="lgo baru.png"/>
+      <!--jangan lupa PAGE TOP UP DANA  -->
+  </head>
+  <body>
+   <div id="container">
+      <div class="statusBar"> <p>
+          <ul class="listmenu">
+            <a href="#" class="homeonly"> 
+                <img class="home" src="./lgo baru.png"> 
+            </a>
+                <li > Warung Pojok </li>
+                <a href="#" class="gambarGerobak" id="g1"> 
+                    <img class="gerobak" src="./grbk.png">
+                </a>
+                   <li>Belanja</li>
+                <a href="#" class="gambarDompet" id="g2" > 
+                    <img class="dompet" src="./1123.png">
+                </a>
+                   <li>Isi Dompet</li>
+                <a href="#" class="gambarTentang" id="g3">
+                    <img class="about" src="./path1683.png">
+                </a>
+                   <li>Tentang <br> Kami</li>
+          </ul>
+           
+        </div>
+        <div>
+          <h1 class="judul">Warung Pojok Indonesia</h1>
+          <h4 class="tagline"> "Menjadikan Warung Ada di Genggaman Anda" </h4>
+        </div>
+        <div class="login" >
+          <form action="">
+              <!-- <inpu"button" value="MASUK!!!" >  -->
+              <!-- <link href=""> -->
+              <a href="#" class="button" id="button" onclick="masuk()"> MASUK! </a>
+          </form>
+        </div>
+        <div class="allintro" id="tentang">
+          <p class="hai"></p>
+          <p class="intro">
+              Warung Pojok indonesia Merupakan salah satu platfrom yang ada di indonesia yang befokus pada jual dan titip jual barang apapun termasuk pangan , sandang dan lain lain.
+              Selain itu Warung Pojok di dedikasi kan untuk mendekatkan sosok warung kepada kaum milenial 
+              dimana nanti Warung Pojok akan memenuhi segala kebutuhan masyarakat indonesia .
+          </p>   
+          <p class="intro2"> 
+              Sasaran kami adalah mahluk – mahluk mager yang ada di Indonesia , 
+              dan dengan hanya menggunakan website  Warung Pojok Indonesia akan dapat memenuhi segala kebutuhan mereka .
+          </p>    
+          <p class="c"> Click Clop Checkout </p>
+          <p class="c2"> Selamat Berbelanja !</p>
+        </div>
+        <div class="popup">
+          <div class="isipop"></div>
+            <img class="loginimage" src="./login.png"> 
+            <img class="keluar" id="keluar" src="close-button-icon-png-1.jpg" alt="">
+          <form action="" id="form">
+              <input id="username" type="text" placeholder="Name" > 
+              <input id="password" type="password" placeholder="Password">
+              <button class="buttonLogin" onclick="getValue()"> Login </button>
+          </form>
+          <a id="userDompet"></a>
+        </div>
+    </div>
+        <div class="isiBelanja">
+          <div id="cart-wrap">
+             <div id="cart-products"></div>
+            <div id="cart-list"></div>
+          </div>
+        </div>
+   </div>
+    <script src="index.js"></script>
+  </body>
+</html>
